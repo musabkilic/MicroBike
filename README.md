@@ -1,2 +1,2 @@
 # MicroController
-Turn Your Micro:Bit to a Game Controller
+Turn Your Micro:Bit to a Game Controller.
