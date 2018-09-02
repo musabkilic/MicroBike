@@ -1,7 +1,7 @@
 # MicroBike
 Turn your micro:bit into a Game Controller.
 
-![video](./res/microbike.gif)
+![gif](./res/microbike.gif)
 
 ## What is it?
 
