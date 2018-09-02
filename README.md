@@ -1,2 +1,4 @@
-# MicroController
-Turn Your Micro:Bit to a Game Controller.
+# MicroBike
+Turn your Micro:Bit into a Game Controller.
+
+![video](./res/microbike.gif)
