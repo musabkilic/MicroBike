@@ -54,7 +54,7 @@ while 1:
 	#Change Direction
 	changeKeyState(keyboard.up_key,y>400,"F")
 	changeKeyState(keyboard.right_key,x>60,"R")
-	changeKeyState(keyboard.left_key,x<-60,"W")
+	changeKeyState(keyboard.left_key,x<-60,"L")
 	changeKeyState(keyboard.shift_key,motion>500,"S")
 
 	#Set Direction to Show
