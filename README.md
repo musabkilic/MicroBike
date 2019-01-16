@@ -6,7 +6,7 @@ _[2018-12-27] Project page: https://musab.netlify.com/projects/MicroBike_
 _[2019-01-09] Türkçe yazı: https://blog.samm.com/microbit-projeleri-microbike/_  
 
 
-![gif](./res/microbike.gif)
+![gif](https://github.com/musabkilic/MicroBike/raw/master/res/microbike.gif)
 
 ## What is it?
 
@@ -149,3 +149,7 @@ This is the main loop. We will start by getting required values and calculating 
 Then we will use the information we get before to control the game. Keyboard keys will trigger when the microbit turns right or left higher than a specific value.
 
 We will use same information for changing the direction on the microbit.
+
+Musab Kılıç  
+@musabkilic & @musabkilic0  
+[Licensed under the GNU General Public License v3.0](https://github.com/musabkilic/MicroBike/blob/master/LICENSE)
