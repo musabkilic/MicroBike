@@ -1,6 +1,11 @@
 # MicroBike
 Turn your micro:bit into a Game Controller.
 
+_[2017-12-10] Github page: https://github.com/musabkilic/MicroBike/_  
+_[2018-12-27] Project page: https://musab.netlify.com/projects/MicroBike_  
+_[2019-01-09] Türkçe yazı: https://blog.samm.com/microbit-projeleri-microbike/_  
+
+
 ![gif](./res/microbike.gif)
 
 ## What is it?
