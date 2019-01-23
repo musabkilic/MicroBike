@@ -36,10 +36,14 @@ This gets the latest MicroBike code from this [Git repository](https://help.gith
 Next, install the required modules:
 
    ```pip install -U -q -r requirements.txt```
-   
+
 Click below to see a demonstration of this:
 
 <a href="https://asciinema.org/a/ZaQaO2bJWUP4FyigsiC4IOaBZ"><img src="https://asciinema.org/a/ZaQaO2bJWUP4FyigsiC4IOaBZ.png" width="600"></a>
+
+**Setting up the bitio library**
+
+See [this](https://github.com/whaleygeek/bitio#getting-started) to set up [David Whale](https://github.com/whaleygeek)'s [bitio library](https://github.com/whaleygeek/bitio).
 
 ### Setting up your micro:bit
 Connect your micro:bit to your computer. Get the latest [bitio.hex](https://github.com/whaleygeek/bitio/raw/master/bitio.hex) from the bitio repository, and [drag this hex file to your micro:bit to 'flash' it to the device](https://microbit.org/guide/hardware/usb/).
