@@ -39,7 +39,7 @@ Next, install the required modules:
    
 Click below to see a demonstration of this:
 
-<a href="https://asciinema.org/a/ZaQaO2bJWUP4FyigsiC4IOaBZ"><img src="https://asciinema.org/a/ZaQaO2bJWUP4FyigsiC4IOaBZ.png" width="600"></a>
+[![Installing Required Modules for MicroBike](https://github.com/musabkilic/MicroBike/raw/master/res/command_line.png)](https://www.youtube.com/watch?v=x_Vw__5VoTY "Installing Required Modules for MicroBike")
 
 ### Setting up your micro:bit
 Connect your micro:bit to your computer. Get the latest [bitio.hex](https://github.com/whaleygeek/bitio/raw/master/bitio.hex) from the bitio repository, and [drag this hex file to your micro:bit to 'flash' it to the device](https://microbit.org/guide/hardware/usb/).
