@@ -1,4 +1,11 @@
-# MicroBike
+<h1 align="center">
+	MicroBike
+</h1>
+
+<p align="center">
+	<img src="https://img.shields.io/github/license/musabkilic/microbike.svg"/>
+</p>
+
 Turn your micro:bit into a Game Controller.
 
 _[2017-12-10] Github page: [https://github.com/musabkilic/MicroBike/](https://github.com/musabkilic/MicroBike/)_  
