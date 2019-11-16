@@ -15,6 +15,7 @@ Turn your micro:bit into a Game Controller.
 **The websites listed under are _NOT_ controlled by me and I'm _NOT_ responsible for the changes that may happen in the future**
 
 - _[14 November 2018] :uk: Featured on official Micro:Bit Ideas page: [https://microbit.org/ideas/](https://microbit.org/ideas/)_   
+- _[19 January 2019]: :uk: Featured on "10 Amazing micro:bit Projects", Micro:Mag Issue 3: [https://micromag.cc/issuethree/](https://micromag.cc/issuethree/)_   
 - _[20 March 2019] :uk: Featured on "16 Top BBC micro:bit Projects": [https://www.itpro.co.uk/desktop-hardware/26289/13-top-bbc-micro-bit-projects](https://www.itpro.co.uk/desktop-hardware/26289/13-top-bbc-micro-bit-projects)_  
 - _[9 January 2019] :tr: SAMM Blog Tarafından Türkçe Yazı: [https://blog.samm.com/microbit-projeleri-microbike/](https://blog.samm.com/microbit-projeleri-microbike/)_   
 - _[7 February 2019] :poland: Featured on RoboCap, Warsztaty programowania i robotyki dla dzieci: [https://robocap.org/microbit/index01.html#/1](https://robocap.org/microbit/index01.html#/1)_   
