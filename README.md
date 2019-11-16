@@ -162,6 +162,11 @@ Then we will use the information we get before to control the game. Keyboard key
 
 We will use same information for changing the direction on the microbit.
 
-Musab Kılıç  
-@musabkilic & @musabkilic0  
-[Licensed under the GNU General Public License v3.0](https://github.com/musabkilic/MicroBike/blob/master/LICENSE)
+<p align="center">
+	<a href="https://github.com/musabkilic">
+	   <img width=75 height=75 src="https://github.com/musabkilic.png">
+	</a><br/>
+	Musab Kılıç<br/>
+	@musabkilic & @musabkilic0<br/>
+	<a href="https://github.com/musabkilic/MicroBike/blob/master/LICENSE">Licensed under the GNU General Public License v3.0</a>
+</p>
