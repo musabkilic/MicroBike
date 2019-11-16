@@ -9,18 +9,20 @@
 
 Turn your micro:bit into a Game Controller.
 
-_[10 December 2017] :uk: Github Page: [https://github.com/musabkilic/MicroBike/](https://github.com/musabkilic/MicroBike/)_  
-_[27 December 2018] :uk: Project Page on My Website: [https://musab.netlify.com/projects/MicroBike](https://musab.netlify.com/projects/MicroBike)_  
+- _[10 December 2017] :uk: Github Page: [https://github.com/musabkilic/MicroBike/](https://github.com/musabkilic/MicroBike/)_  
+- _[27 December 2018] :uk: Project Page on My Website: [https://musab.netlify.com/projects/MicroBike](https://musab.netlify.com/projects/MicroBike)_  
 
-**I'm _NOT_ affiliated with the websites listed under and I'm _NOT_ responsible for the contents of the websites**
+**The websites listed under are _NOT_ controlled by me and I'm _NOT_ responsible for the changes that may happen in the future**
 
-_[9 January 2019] :tr: SAMM Blog Tarafından Türkçe Yazı: [https://blog.samm.com/microbit-projeleri-microbike/](https://blog.samm.com/microbit-projeleri-microbike/)_  
-_[7 February 2019] :poland: Listed on RoboCap, Warsztaty programowania i robotyki dla dzieci: [https://robocap.org/microbit/index01.html#/1](https://robocap.org/microbit/index01.html#/1)_   
-_[20 March 2019] :uk: Listed on "16 Top BBC micro:bit Projects": [https://www.itpro.co.uk/desktop-hardware/26289/13-top-bbc-micro-bit-projects](https://www.itpro.co.uk/desktop-hardware/26289/13-top-bbc-micro-bit-projects)_   
-_[25 March 2019] :uk: Listed on "Meet the BBC micro:bit": [https://www.diogomakes.com/blog/meet-the-bbc-microbit/](https://www.diogomakes.com/blog/meet-the-bbc-microbit/)_   
-_[13 April 2019] :cn: Chinese Translation by 江宗諭: [https://vmaker.tw/archives/32557](https://vmaker.tw/archives/32557)_   
-_[16 April 2019] :de: CalliMoto, a MicroBike Inspired Controller: [https://www.hackster.io/thorsten-kimmeskamp/callimoto-50a10d](https://www.hackster.io/thorsten-kimmeskamp/callimoto-50a10d)_   
-_[18 April 2019] :estonia: Tallinna Polütehnikum, Introduction to Micro:Bit: [http://nelus.tpt.edu.ee/txt/J4i8X-microbit.txt](http://nelus.tpt.edu.ee/txt/J4i8X-microbit.txt)_   
+- _[14 November 2018] :uk: Featured on official Micro:Bit Ideas page: [https://microbit.org/ideas/](https://microbit.org/ideas/)_   
+- _[20 March 2019] :uk: Featured on "16 Top BBC micro:bit Projects": [https://www.itpro.co.uk/desktop-hardware/26289/13-top-bbc-micro-bit-projects](https://www.itpro.co.uk/desktop-hardware/26289/13-top-bbc-micro-bit-projects)_  
+- _[9 January 2019] :tr: SAMM Blog Tarafından Türkçe Yazı: [https://blog.samm.com/microbit-projeleri-microbike/](https://blog.samm.com/microbit-projeleri-microbike/)_   
+- _[7 February 2019] :poland: Featured on RoboCap, Warsztaty programowania i robotyki dla dzieci: [https://robocap.org/microbit/index01.html#/1](https://robocap.org/microbit/index01.html#/1)_   
+- _[20 March 2019] :uk: Featured on "16 Top BBC micro:bit Projects": [https://www.itpro.co.uk/desktop-hardware/26289/13-top-bbc-micro-bit-projects](https://www.itpro.co.uk/desktop-hardware/26289/13-top-bbc-micro-bit-projects)_    
+- _[25 March 2019] :uk: Featured on "Meet the BBC micro:bit": [https://www.diogomakes.com/blog/meet-the-bbc-microbit/](https://www.diogomakes.com/blog/meet-the-bbc-microbit/)_
+- _[13 April 2019] :cn: Chinese Translation by 江宗諭: [https://vmaker.tw/archives/32557](https://vmaker.tw/archives/32557)_
+- _[16 April 2019] :de: CalliMoto, a MicroBike Inspired Controller: [https://www.hackster.io/thorsten-kimmeskamp/callimoto-50a10d](https://www.hackster.io/thorsten-kimmeskamp/callimoto-50a10d)_  
+- _[18 April 2019] :estonia: Tallinna Polütehnikum, Introduction to Micro:Bit: [http://nelus.tpt.edu.ee/txt/J4i8X-microbit.txt](http://nelus.tpt.edu.ee/txt/J4i8X-microbit.txt)_
 
 ![gif](https://github.com/musabkilic/MicroBike/raw/master/res/microbike.gif)
 
