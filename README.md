@@ -5,6 +5,7 @@
 <p align="center">
 	<img src="https://img.shields.io/github/license/musabkilic/microbike.svg"/>
 	<img src="https://img.shields.io/github/stars/musabkilic/microbike.svg"/>
+	<a href="https://github.com/carlosperate/awesome-microbit"><img src="https://awesome.re/mentioned-badge.svg"/></a>
 </p>
 
 Turn your micro:bit into a Game Controller.
