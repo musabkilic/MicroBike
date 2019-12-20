@@ -25,6 +25,7 @@ Turn your micro:bit into a Game Controller.
 - _[13 April 2019] :cn: Chinese Translation by 江宗諭: [https://vmaker.tw/archives/32557](https://vmaker.tw/archives/32557)_
 - _[16 April 2019] :de: CalliMoto, a MicroBike Inspired Controller: [https://www.hackster.io/thorsten-kimmeskamp/callimoto-50a10d](https://www.hackster.io/thorsten-kimmeskamp/callimoto-50a10d)_  
 - _[18 April 2019] :estonia: Tallinna Polütehnikum, Introduction to Micro:Bit: [http://nelus.tpt.edu.ee/txt/J4i8X-microbit.txt](http://nelus.tpt.edu.ee/txt/J4i8X-microbit.txt)_
+- _[10 December 2019] :uk: Featured on "Top 25 Micro:Bit Projects You Must Try 2019!": [https://www.seeedstudio.com/blog/2019/12/10/top-25-microbit-projects-for-beginners-2019/](https://www.seeedstudio.com/blog/2019/12/10/top-25-microbit-projects-for-beginners-2019/)_
 
 ![gif](https://github.com/musabkilic/MicroBike/raw/master/res/microbike.gif)
 
