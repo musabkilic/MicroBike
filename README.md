@@ -11,14 +11,13 @@
 Turn your micro:bit into a Game Controller.
 
 - _[10 December 2017] :uk: Github Page: [https://github.com/musabkilic/MicroBike/](https://github.com/musabkilic/MicroBike/)_  
-- _[27 December 2018] :uk: Project Page on My Website: [https://musab.me/projects/MicroBike](https://musab.netlify.com/projects/MicroBike)_  
+- _[27 December 2018] :uk: Project Page on My Website: [https://musab.me/projects/MicroBike](ttps://musab.me/projects/MicroBike)_  
 
 **The websites listed under are _NOT_ controlled by me and I'm _NOT_ responsible for the changes that may happen in the future**
 
 - _[14 November 2018] :uk: Featured on official Micro:Bit Ideas page: [https://microbit.org/ideas/](https://microbit.org/ideas/)_   
-- _[19 January 2019]: :uk: Featured on "10 Amazing micro:bit Projects", Micro:Mag Issue 3: [https://micromag.cc/issuethree/](https://micromag.cc/issuethree/)_   
-- _[20 March 2019] :uk: Featured on "16 Top BBC micro:bit Projects": [https://www.itpro.co.uk/desktop-hardware/26289/13-top-bbc-micro-bit-projects](https://www.itpro.co.uk/desktop-hardware/26289/13-top-bbc-micro-bit-projects)_  
 - _[9 January 2019] :tr: SAMM Blog Tarafından Türkçe Yazı: [https://blog.samm.com/microbit-projeleri-microbike/](https://blog.samm.com/microbit-projeleri-microbike/)_   
+- _[19 January 2019]: :uk: Featured on "10 Amazing micro:bit Projects", Micro:Mag Issue 3: [https://micromag.cc/issuethree/](https://micromag.cc/issuethree/)_   
 - _[7 February 2019] :poland: Featured on RoboCap, Warsztaty programowania i robotyki dla dzieci: [https://robocap.org/microbit/index01.html#/1](https://robocap.org/microbit/index01.html#/1)_   
 - _[20 March 2019] :uk: Featured on "16 Top BBC micro:bit Projects": [https://www.itpro.co.uk/desktop-hardware/26289/13-top-bbc-micro-bit-projects](https://www.itpro.co.uk/desktop-hardware/26289/13-top-bbc-micro-bit-projects)_    
 - _[25 March 2019] :uk: Featured on "Meet the BBC micro:bit": [https://www.diogomakes.com/blog/meet-the-bbc-microbit/](https://www.diogomakes.com/blog/meet-the-bbc-microbit/)_
