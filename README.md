@@ -11,7 +11,7 @@
 Turn your micro:bit into a Game Controller.
 
 - _[10 December 2017] :uk: Github Page: [https://github.com/musabkilic/MicroBike/](https://github.com/musabkilic/MicroBike/)_  
-- _[27 December 2018] :uk: Project Page on My Website: [https://musab.me/projects/MicroBike](ttps://musab.me/projects/MicroBike)_  
+- _[27 December 2018] :uk: Project Page on My Website: [https://musab.me/projects/MicroBike](https://musab.me/projects/MicroBike)_  
 
 **The websites listed under are _NOT_ controlled by me and I'm _NOT_ responsible for the changes that may happen in the future**
 
