@@ -1,26 +1,25 @@
 import microbit
 import time
-from pykeyboard import PyKeyboard
+from pynput.keyboard import Key, Controller
 
-#Function for Changing a Key 
-def changeKeyState(key, value, key_name):
+#Function for Changing a Key
+def changeKeyState(key, value):
 	global keyboard_keys
 
 	#Change Only Neccessary
-	if value!=keyboard_keys[key_name]:
+	if value!=keyboard_keys.get(key, False):
 		if value:
-			keyboard.press_key(key)
+			keyboard.press(key)
 		else:
-			keyboard.release_key(key)
+			keyboard.release(key)
 
-	keyboard_keys[key_name] = value
+	keyboard_keys[key] = value
 
 #Specify Keyboard
-keyboard = PyKeyboard()
+keyboard = Controller()
 #Set Accelerometer Values
 previous_values = microbit.accelerometer.get_values()
-#Set Keyboard Keys
-keyboard_keys = {"L":False,"R":False,"F":False,"S":False}
+keyboard_keys = {}
 #Set Images
 stable = microbit.Image("00000:00000:99999:00000:00000")
 images = {"N": microbit.Image.ARROW_N,
@@ -52,10 +51,10 @@ while 1:
 	motion = sum(map(lambda x:abs(accelerometer_values[x]-previous_values[x]),range(3)))/3
 
 	#Change Direction
-	changeKeyState(keyboard.up_key,y>400,"F")
-	changeKeyState(keyboard.right_key,x>60,"R")
-	changeKeyState(keyboard.left_key,x<-60,"L")
-	changeKeyState(keyboard.shift_key,motion>500,"S")
+	changeKeyState(Key.up, y>400)
+	changeKeyState(Key.right, x>60)
+	changeKeyState(Key.left, x<-60)
+	changeKeyState(Key.shift, motion>500)
 
 	#Set Direction to Show
 	direction = ""

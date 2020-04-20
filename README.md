@@ -31,7 +31,7 @@ Turn your micro:bit into a Game Controller.
 ## What is it?
 
 This project allows you to control PC games using a [BBC micro:bit](https://microbit.org/) as the game controller. To get the code to work, you'll need a couple of extra Python modules installed onto your local machine:
-- [PyUserInput](https://github.com/SavinaRoja/PyUserInput), "a module for cross-platform control of the mouse and keyboard in python"
+- [Pynput](https://pynput.readthedocs.io/en/latest/), "Monitor and control user input devices"
 - [David Whale](https://github.com/whaleygeek)'s [bitio library](https://github.com/whaleygeek/bitio), which "allows you to run code in Python on a PC/Mac/Linux/Raspberry Pi and interact directly with the micro:bit"
 
 ## Installation
@@ -46,13 +46,13 @@ You'll need to set up the device on which the game will be played first.
 Open a new [command line window](https://www.computerhope.com/jargon/c/commandi.htm). This is called 'Terminal' on a Mac, 'Command Prompt' on Windows, and 'shell' or 'terminal' on Linux. Type the following:
 
    ```git clone https://github.com/musabkilic/MicroBike```
-   
+
 This gets the latest MicroBike code from this [Git repository](https://help.github.com/articles/about-repositories/).
-   
+
    Navigate to the MicroBike folder in your command line window using the ['cd' command](https://en.wikipedia.org/wiki/Cd_(command)) - you may need to change the path, depending on how you've configured git on your computer:
-   
+
    ```cd MicroBike```
-   
+
 Next, install the required modules:
 
    ```pip install -U -q -r requirements.txt```
@@ -79,35 +79,34 @@ Let's review the code for [controller.py](https://github.com/musabkilic/MicroBik
 ```python
 import microbit
 import time
-from pykeyboard import PyKeyboard
+from pynput.keyboard import Key, Controller
 ```
 
-We need to import the modules to use them later. We will use 3 modules; microbit module for controlling and reading data from the micro:bit, time module for waiting for a specific time step and pykeyboard module to control the keyboard(and the game of course).
+We need to import the modules to use them later. We will use 3 modules; microbit module for controlling and reading data from the micro:bit, time module for waiting for a specific time step and pynput module to control the keyboard(and the game of course).
 
 ```python
-#Function for Changing a Key 
-def changeKeyState(key, value, key_name):
+#Function for Changing a Key
+def changeKeyState(key, value):
 	global keyboard_keys
 
 	#Change Only Neccessary
-	if value!=keyboard_keys[key_name]:
+	if value!=keyboard_keys.get(key, False):
 		if value:
-			keyboard.press_key(key)
+			keyboard.press(key)
 		else:
-			keyboard.release_key(key)
+			keyboard.release(key)
 
-	keyboard_keys[key_name] = value
+	keyboard_keys[key] = value
 ```
 
 `changeKeyState` is a function, it will help us to control the keyboard keys - for example if the handlebar goes left, it will press the left arrow key.
 
 ```python
 #Specify Keyboard
-keyboard = PyKeyboard()
+keyboard = Controller()
 #Set Accelerometer Values
 previous_values = microbit.accelerometer.get_values()
-#Set Keyboard Keys
-keyboard_keys = {"L":False,"R":False,"F":False,"S":False}
+keyboard_keys = {}
 #Set Images
 stable = microbit.Image("00000:00000:99999:00000:00000")
 images = {"N": microbit.Image.ARROW_N,
@@ -151,10 +150,10 @@ This is the main loop. We will start by getting required values and calculating 
 
 ```python
 	#Change Direction
-	changeKeyState(keyboard.up_key,y>400,"F")
-	changeKeyState(keyboard.right_key,x>60,"R")
-	changeKeyState(keyboard.left_key,x<-60,"L")
-	changeKeyState(keyboard.shift_key,motion>500,"S")
+	changeKeyState(Key.up, y>400)
+	changeKeyState(Key.right, x>60)
+	changeKeyState(Key.left, x<-60)
+	changeKeyState(Key.shift, motion>500)
 
 	#Set Direction to Show
 	direction = ""
